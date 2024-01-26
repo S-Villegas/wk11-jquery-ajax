@@ -1,0 +1,33 @@
+/* CSS styling for game grid */
+.cell{
+    width: 150px;
+    height: 150px;
+    border: 4px solid;
+    box-shadow: 0 0 0 3px;
+    line-height: 100px;
+    font-size: 60px;
+    font-style: italic;
+    font-family:fantasy;
+    cursor:pointer;
+    color: rgb(98, 7, 151)
+
+}
+/* CSS styling to page */
+#gameContainer{
+    text-align: center;
+    font-family: fantasy;
+    font-size: larger;
+    color: rgb(61, 3, 95); 
+    
+}
+/* CCSS styling - Type & sizing of board-grid */
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+}
+/* page background from the internet */
+body {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/007/410/558/original/minimalist-pastel-color-blob-aesthetic-background-wallpaper-template-poster-free-vector.jpg);
+}
